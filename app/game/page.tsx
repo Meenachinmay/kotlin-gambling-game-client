@@ -97,7 +97,7 @@ function Game() {
             return () => {}; // Return empty cleanup function if not host or participant
         }
 
-        const pusher = new Pusher("6ba8c285cf1ace0586de", {
+        const pusher = new Pusher("", {
             cluster: "ap3",
             channelAuthorization: {
                 endpoint: "http://localhost:8080/pusher/auth",
